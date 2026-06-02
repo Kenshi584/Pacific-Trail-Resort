@@ -1,0 +1,104 @@
+/*
+File: pacific.css
+GUI Assignment: This assignment use an external stlye sheet of CSS to replicate the final product of a screenshot to the best of our abilities.
+Derek Garcia, UMass Lowell Computer Science, Derek_GarciaRodriguez@student.uml.edu
+Copyright (c) 2026 by Derek. All rights reserved. May be freely copied or excerpted for educational purposes with credit to the author.
+updated by DG on June 6, 2026 at 8:34 PM
+*/
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+/*The website */
+body {
+	width: 80%;
+	margin: 0 auto;
+	min-width: 600px;
+	background-color: #00569f;
+	background-image: url("ptrbackground.jpg");
+	background-repeat: repeat-x;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	overflow: hidden;
+}
+/*The border */
+#wrapper {
+	background-color:#90C8E3;
+	margin: 0 auto;
+}
+/*Links body/Navigation bar*/
+nav {
+	float: left;
+	width: 190px;
+}
+
+nav ul {
+	font-size: 1.2em;
+	list-style-type: none;
+	padding-left: 15px;
+}
+nav a:visited {
+	color: #344873;
+}
+nav a:hover {
+	color: #FFFFFF;
+}
+nav a{
+	font-weight: bolder;
+	color: #000034;
+	text-decoration: none;
+}
+/*Headers*/
+h1 {
+	color: #FFFFFF;
+	text-decoration: white;
+	background-color: #000034;
+	background-image: url(sunset.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	margin-bottom: 0;
+	padding: 10px;
+	
+}
+h2 {
+	color: #3399CC;
+}
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+#contact {
+	font-size: 90%;
+}
+dt {
+	color: #000033;
+}
+/*Text of the resort*/
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	margin-left: 190px;
+	background-color: #FFFFFF;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	font-style: italic;
+	font-size:small;
+}
+#content {
+	margin-left: 190px;
+	background-color: #FFFFFF;
+	padding: 20px;
+}
+#content ul {
+	list-style-image: url("marker.gif");
+	overflow: hidden;
+	padding-left: 20px;
+	margin-left: 0;
+}
+
+img {
+	float: left;
+	margin-right: 20px;
+}
+.resort {
+	color: #858D9F;
+	font-weight: bolder;
+}
